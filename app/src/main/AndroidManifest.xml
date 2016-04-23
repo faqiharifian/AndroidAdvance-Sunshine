@@ -28,6 +28,9 @@
     <uses-permission
         android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
 
+    <!-- This permission is used for accessing network state -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
